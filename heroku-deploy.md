@@ -38,6 +38,18 @@ To connect to the PostgreSQL database on Heroku by runnning:
 
 ```heroku pg:psql``` 
 
+
+If you are using the `pg` driver you might need to add the following to your setup in NodeJS:
+
+```
+const pool = new Pool({
+    connectionString,
+    ssl : ssl: {
+       rejectUnauthorized: false,
+    }
+});
+```
+
 ## Deploy and debug your app
 
 To deploy your app run this command: 
@@ -57,8 +69,3 @@ To see the log files to look for deployment issue use:
 ```
 heroku logs --tail
 ```
-
-
-
-
-
