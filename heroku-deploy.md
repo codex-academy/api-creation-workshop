@@ -44,7 +44,7 @@ If you are using the `pg` driver you might need to add the following to your set
 ```
 const pool = new Pool({
     connectionString,
-    ssl : ssl: {
+    ssl: {
        rejectUnauthorized: false,
     }
 });
