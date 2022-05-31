@@ -22,7 +22,7 @@
 
 Ensure you have start scipt in `package.json` under scripts:
 
-`start" : "node index.js`
+`"start" : "node index.js`
 
 ## Database setup
 
