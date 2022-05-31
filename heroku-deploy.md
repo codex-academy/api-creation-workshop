@@ -19,6 +19,11 @@
 * `heroku apps:rename put-your-app-name-here`
 * `git push heroku main`
 
+
+Ensure you have start scipt in `package.json` under scripts:
+
+`start" : "node index.js`
+
 ## Database setup
 
 Create a PostgreSQL database on Heroku for you app using this command: 
