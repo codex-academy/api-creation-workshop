@@ -9,7 +9,7 @@
 * `git init`
 * `git add .`
 * `git commit -m "initial commit"`
-* `git brnach -M main`
+* `git branch -M main`
 
 
 ## Heroku setup
